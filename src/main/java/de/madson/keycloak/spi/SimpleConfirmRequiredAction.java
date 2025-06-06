@@ -12,7 +12,7 @@ import jakarta.ws.rs.core.Response;
 
 public class SimpleConfirmRequiredAction implements RequiredActionProvider, RequiredActionFactory {
     
-      public static final String PROVIDER_ID = "SimpleConfirmRequiredAction";
+    public static final String PROVIDER_ID = "SimpleConfirmRequiredAction";
 
     @Override
     public void evaluateTriggers(RequiredActionContext context) {

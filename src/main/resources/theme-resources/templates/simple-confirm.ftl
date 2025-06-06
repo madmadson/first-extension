@@ -1,5 +1,5 @@
 <#import "template.ftl" as layout>
-<@layout.registrationLayout title="Bestätigung erforderlich">
+<@layout.registrationLayout >
 
     <form action="${url.loginAction}" method="post">
 
